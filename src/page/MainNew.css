@@ -1,0 +1,39 @@
+h1{
+    margin-left: 500px;
+    color: rgb(0, 0, 0);
+}
+li{
+    color: black;
+
+}
+.bg-image{
+background-color: black;
+background-image: url('/src/component/image/bg.jpg');
+position:relative;
+width:100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    background-color:rgb(0,0,0,0);
+
+}
+.content{
+    position: 100%;
+    width:100%;
+    height: 100%;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+
+}

@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .custom-card {
+    width: 300px;
+    margin: 10px;
+  }
+  .card-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+ 

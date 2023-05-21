@@ -1,0 +1,22 @@
+.news-header {
+    display: block;
+    align-items: center;
+  }
+  
+  .news-title {
+    margin-left: 200px;
+  }
+  .pop-news-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: scroll;
+  }
+  
+  .pop-news-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pop-news-text {
+    margin-top: 20px;
+    white-space: pre-line;
+  }
